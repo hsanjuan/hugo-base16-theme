@@ -327,11 +327,13 @@ article.single pre {
   padding: 2rem;
 }
 
-article.single p code {
-  padding: 0.2em 0.5em;
-  border-radius: 3px;
-  background: #747369;
-  color: #f2f0ec;
+article.single p code, article.single li code {
+  padding: 0.0em 0.3em;
+  border-radius: 2px;
+  //background: #747369;
+  background: #d3d0c8;
+  //color: #f2f0ec;
+  color: black;
 }
 
 article.single figure, article.single div.highlight {
